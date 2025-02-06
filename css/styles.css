@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #e0f2f1;
+}
+
+h2,
+h3 {
+    color: #00796b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p,
+ol {
+    color: #004d40;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+    /* background: #b2dfdb; */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 94%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #004d40;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+}

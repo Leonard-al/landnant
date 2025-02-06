@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Data Deletion</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h2>Request Data Deletion</h2>
+    <p>Follow these steps to request account deletion:</p>
+    <ol>
+        <li>Enter your email address below and submit the request.</li>
+        <li>If an account with that email exists, we will send a confirmation link.</li>
+        <li>Click the link in the email to confirm and complete the deletion process.</li>
+    </ol>
+    <h3>Data Deletion Policy</h3>
+    <p>Upon confirmation, all personal data, including any properties associated with your account, will be permanently
+        deleted. However, some data may be retained for legal or compliance purposes for a limited period.</p>
+    <form id="deleteForm">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Request Account Deletion</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
