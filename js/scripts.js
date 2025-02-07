@@ -15,7 +15,7 @@ document.getElementById("deleteForm").addEventListener("submit", async function 
     messageDiv.style.color = "#00796b";
 
     try {
-        const response = await fetch("https://your-cloud-function-url/requestAccountDeletion", {
+        const response = await fetch("https://us-central1-landnant-4f311.cloudfunctions.net/confirmAccountDeletion", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
